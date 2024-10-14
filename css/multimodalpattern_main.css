@@ -1,0 +1,127 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f0f4f8;
+	color: #333;
+}
+
+.header {
+	background-color: #0056b3;
+	color: white;
+	padding: 2rem 0;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-weight: bold;
+	margin-top: 2rem;
+	color: #0056b3;
+}
+
+.section-title {
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-top: 2rem;
+}
+
+.author-info {
+	display: flex; /* Use flexbox to align items */
+	flex-wrap: wrap; /* Allow wrapping for smaller screens */
+	justify-content: center; /* Center the authors */
+	margin-top: 1rem; /* Add space above the author images */
+}
+
+.author {
+	text-align: center; /* Center the text below the images */
+	margin: 1rem; /* Add space between authors */
+}
+
+.author-image {
+	width: 80px; /* Set a width for the images */
+	height: auto; /* Maintain the aspect ratio */
+	border-radius: 50%; /* Make images circular */
+}
+
+.author-name {
+	margin-top: 0.5rem; /* Adds some space between the image and the name */
+	text-align: center; /* Center the name under the image */
+}
+
+.author-link {
+	color: white; /* Makes the link text white */
+	text-decoration: white; /* Optional: removes underline */
+}
+
+/* Optional: change link color on hover */
+.author-link:hover {
+	color: lightgray; /* Change color on hover */
+}
+
+.custom-image {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 1rem auto;
+	border: 2px solid #0056b3;
+	border-radius: 8px;
+}
+
+.container {
+	margin-top: 2rem;
+	padding: 0 15px;
+}
+
+pre {
+	background-color: #e9ecef;
+	padding: 1rem;
+	border-radius: 5px;
+	overflow-x: auto; /* Allows horizontal scrolling */
+	white-space: pre;  /* Maintains whitespace formatting */
+	font-family: 'Courier New', Courier, monospace; /* Monospace font for code-like appearance */
+}
+
+.license {
+	margin-top: 3rem;
+	padding: 1rem;
+	background-color: #e9ecef;
+	border-left: 4px solid #0056b3;
+}
+
+.footer {
+	margin-top: 4rem;
+	padding: 2rem;
+	background-color: #343a40;
+	color: white;
+	text-align: center;
+}
+
+.responsive-image {
+	max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
+	height: auto;    /* Maintain the aspect ratio */
+	display: block;  /* Center the image in its container */
+	margin: 1rem auto; /* Add some margin for spacing */
+}
+
+a {
+	color: #0056b3;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.logos {
+            margin-top: 1rem;
+            text-align: center; /* Center the logos */
+        }
+
+.logo {
+	width: 120px; /* Adjust the width of the logos */
+	height: auto;
+	margin: 0 15px; /* Add spacing between logos */
+}

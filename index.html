@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Pattern to Align them All: Integrating Different Modalities to Define Multi-Modal Entities">
+    <title>A Pattern to Align them All: Integrating Different Modalities to Define Multi-Modal Entities</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Slab:700" rel="stylesheet">
+	
+	<!-- CSS for the main webpage -->
+    <link rel="stylesheet" href="css/multimodalpattern_main.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>A Pattern to Align them All: Integrating Different Modalities to Define Multi-Modal Entities</h1>
+    <div class="author-info">
+        <div class="author">
+            <img src="imgs/people/gianluca.jpeg" alt="Gianluca Apriceno" class="author-image">
+            <div class="author-name">
+                <a href="https://it.linkedin.com/in/gianluca-apriceno-076790177" target="_blank" class="author-link">Gianluca Apriceno</a><sup>1</sup>
+            </div>
+        </div>
+        <div class="author">
+			<img src="imgs/people/valentina.jpeg" alt="Valentina Tamma" class="author-image">
+            <div class="author-name">
+                <a href="https://intranet.csc.liv.ac.uk/~valli/Home.html" target="_blank" class="author-link">Valentina Tamma</a><sup>2</sup>
+            </div>
+        </div>
+        <div class="author">
+			<img src="imgs/people/tania.jpeg" alt="Tania Bailoni" class="author-image">
+            <div class="author-name">
+                <a href="https://it.linkedin.com/in/tania-bailoni-2855ab269" target="_blank" class="author-link">Tania Bailoni</a><sup>1</sup>
+            </div>
+        </div>
+        <div class="author">
+            <img src="imgs/people/jacopo.jpg" alt="Jacopo de Berardinis" class="author-image">
+            <div class="author-name">
+                <a href="http://www.jacopodeberardinis.com/" target="_blank" class="author-link">Jacopo de Berardinis</a><sup>2</sup>
+            </div>
+        </div>
+        <div class="author">
+            <img src="imgs/people/mauro.jpeg" alt="Mauro Dragoni" class="author-image">
+            <div class="author-name">
+                <a href="http://www.maurodragoni.com/about_me.php" target="_blank" class="author-link">Mauro Dragoni</a><sup>1</sup>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <sup>1</sup>Fondazione Bruno Kessler (FBK), Trento, Italy
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <sup>2</sup>University of Liverpool, Liverpool, United Kingdom
+    </div>
+   
+    </div>
+    
+
+    <div class="container">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="text-center">
+              <p>
+                  <strong>Arxiv:</strong> 
+                  <a href="https://github.com/IDA-FBK/MultiModalPattern" target="_blank">https://github.com/IDA-FBK/MultiModalPattern</a>
+              </p>
+              </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="text-center">
+              <p>
+                  <strong>GitHub:</strong> 
+                  <a href="https://github.com/IDA-FBK/MultiModalPattern" target="_blank">https://github.com/IDA-FBK/MultiModalPattern</a>
+              </p>
+              </div>
+        </div>
+        
+        <!-- Citation Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-title">Citation</h2>
+                <p>If you are using our Multi-Modal ODP in your work, please consider citing our paper:</p>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <pre xml:space="preserve">
+@article{apriceno2024MMODP,
+  title={A Pattern to Align them All: Integrating Different Modalities to Define Multi-Modal Entities},
+  author={Apriceno, Gianluca and Tamma, Valentina, Bailoni, Tania, de Berardinis, Jacopo, and Dragoni, Mauro},
+  journal={arXiv preprint arXiv:},
+  year={2024}
+}
+                    </pre>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conceptual Model Section -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h2 class="section-title">Multi-Modal ODP Conceptual Model</h2>
+                <img src="https://github.com/IDA-FBK/MultiModalPattern/raw/main/diagrams/multi-modal_pattern/multi-modal_pattern.png" 
+             alt="Multi-Modal ODP Conceptual Model" class="responsive-image">
+                <p>
+                    The ability to reason with and integrate different sensory inputs is the
+                    foundation underpinning human intelligence and it is the reason for the growing
+                    interest in modelling multi-modal information within Knowledge Graphs.
+                    Multi-Modal Knowledge Graphs extend traditional Knowledge Graphs by asso-
+                    ciating an entity with its possible modal representations, including text, images,
+                    audio, and videos, all of which are used to convey the semantics of the entity. De-
+                    spite the increasing attention that Multi-Modal Knowledge Graphs have received,
+                    there is a lack of consensus about the definitions and modelling of modalities,
+                    whose definition is often determined by application domains
+                </p>
+                <p>We propose a novel ontology design pattern (ODP) that captures the separation of concerns between an entity (and the information it conveys), whose semantics can have different manifestations across different media, and its realization in terms of a physical information entity.</p>
+                <p>The ODP's goal is to represent information entities with their associated modalities of diverse nature, and the corresponding relationships between them while providing flexibility and extensibility.</p>
+            </div>
+        </div>
+
+        <!-- Applications Section -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h2 class="section-title">Multi-Modal ODP Applications</h2>
+                <ul>
+                    <li>FuS-KG: A Multi-Modal Knowledge Graph Supporting Personalized Health 
+                        <a href="https://horus-ai.fbk.eu/fuskg/" target="_blank">[WEBSITE]</a>,
+                        <a href="https://github.com/IDA-FBK/FuS-KG" target="_blank">[REPO]</a>
+                        <a href="https://github.com/IDA-FBK/MultiModalPattern/tree/main/diagrams/applications_and_alignments/applications/FuS-KG" target="_blank">[DIAGRAMS]</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Alignments Section -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h2 class="section-title">Multi-Modal ODP Alignments</h2>
+                <ul>
+                    <li>MUSCO Ontology:
+                        <a href="https://github.com/delfimpandiani/musco" target="_blank">[REPO]</a>
+                        <a href="https://github.com/IDA-FBK/MultiModalPattern/tree/main/diagrams/applications_and_alignments/alignments/MUSCO" target="_blank">[DIAGRAMS]</a>
+                        <a href="https://github.com/IDA-FBK/MultiModalPattern/blob/main/ontology/alignments/musco_alignment.ttl" target="_blank">[ALIGNED ONTOLOGY]</a>
+                    </li>
+                    <li>Multimodal Knowledge Graph for Data Spaces:
+                        <a href="https://github.com/IDA-FBK/MultiModalPattern/tree/main/diagrams/applications_and_alignments/alignments/MMKG-Dataspaces">[DIAGRAMS]</a>
+                        <a href="https://github.com/IDA-FBK/MultiModalPattern/blob/main/ontology/alignments/dataspaces_alignment.ttl" target="_blank">[ALIGNED ONTOLOGY]</a>
+                    </li>
+                    <li>Polifonia Ontology Network (PON) - CoMeta:
+                        <a href="https://github.com/polifonia-project/cometa-ontology/" target="_blank">[REPO]</a>
+                        <a href="https://github.com/IDA-FBK/MultiModalPattern/blob/main/diagrams/applications_and_alignments/alignments/Cometa" target="_blank">[DIAGRAMS]</a>
+                        <a href="https://github.com/IDA-FBK/MultiModalPattern/blob/main/ontology/alignments/cometa_alignment.ttl" target="_blank">[ALIGNED ONTOLOGY]</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Note about Multi-Modal ODP Import -->
+        <div class="alert alert-info">
+            <strong>Note:</strong> Opening alignments files in Protégé will ask to import the 
+            <a href="https://github.com/IDA-FBK/MultiModalPattern/blob/main/ontology/multi-modal_odp/multi-modal_odp.ttl" target="_blank">Multi-Modal ODP</a> file if not found.
+        </div>
+
+        <!-- Contacts Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li>Gianluca Apriceno: <a href="mailto:apriceno@fbk.eu">apriceno@fbk.eu</a></li>
+                    <li>Valentina Tamma: <a href="mailto:V.Tamma@liverpool.ac.uk">V.Tamma@liverpool.ac.uk</a></li>
+                    <li>Tania Bailoni: <a href="mailto:tbailoni@fbk.eu">tbailoni@fbk.eu</a></li>
+                    <li>Jacopo de Berardinis: <a href="mailto:jacodb@liverpool.ac.uk">jacodb@liverpool.ac.uk</a></li>
+                    <li>Mauro Dragoni: <a href="mailto:dragoni@fbk.eu">dragoni@fbk.eu</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Acknowledgments Section -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h2 class="section-title">Acknowledgments</h2>
+                <p>do we have any ack?</p>
+            </div>
+        </div>
+
+        <!-- License Section -->
+        <div class="license">
+            <h4>License</h4>
+            <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+            <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+                <img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="CC BY-SA 4.0 License">
+            </a>
+        </div>
+		
+		<!-- Logos Section -->
+        <div class="logos">
+            <img src="imgs/logo/FBK.svg" alt="FBK logo" class="logo" style="width: 62px;">
+            <img src="imgs/logo/IDA_extended.svg" alt="IDA logo" class="logo" style="width: 150px;">
+            <img src="imgs/logo/Uni_Liverpool.svg" alt="University of Liverpool logo" class="logo" style="width: 150px; margin-left: -30px;">
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
