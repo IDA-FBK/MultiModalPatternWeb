@@ -115,10 +115,14 @@ a:hover {
 	text-decoration: underline;
 }
 
+.logos a:hover {
+    text-decoration: none;
+}
+
 .logos {
-            margin-top: 1rem;
-            text-align: center; /* Center the logos */
-        }
+    margin-top: 1rem;
+    text-align: center; /* Center the logos */
+}
 
 .logo {
 	width: 120px; /* Adjust the width of the logos */
